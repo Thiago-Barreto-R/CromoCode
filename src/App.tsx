@@ -1,15 +1,9 @@
-import { Header } from "./components/header";
-import { ThemeProvider } from "./components/theme-provider";
+import { Home } from "./pages/(cromoCode)/home";
 
-interface LayoutMainProps {
-  children: React.ReactNode;
-}
-
-export default function App({ children }: LayoutMainProps) {
+export default function App() {
   return (
-    <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
-      <Header />
-      {children}
-    </ThemeProvider>
+    <div>
+      <Home />
+    </div>
   )
 }
