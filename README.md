@@ -61,14 +61,4 @@ Criamos e gerenciamos parcerias estratégicas para campanhas de promoções e di
 
 Nossa missão é impulsionar o crescimento e a eficiência dos nossos clientes através de soluções tecnológicas inovadoras e personalizadas. Estamos comprometidos em oferecer excelência em cada projeto, garantindo resultados que superem as expectativas.
 
-## Entre em Contato
-
-Estamos prontos para ajudar sua empresa a alcançar novos patamares de eficiência e sucesso. Entre em contato conosco para saber mais sobre como a CromoCode pode transformar seu negócio.
-
-- **Email**: contato@cromocode.com
-- **Telefone**: +55 (XX) XXXX-XXXX
-- **Website**: [www.cromocode.com](http://www.cromocode.com)
-
----
-
 *CromoCode - Transformando Negócios com Tecnologia.*

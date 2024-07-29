@@ -2,7 +2,7 @@ import { ModeToggle } from './mode-toggle'
 
 export function Header() {
   return (
-    <header className='w-full flex items-center justify-center p-4 gap-5'>
+    <header className='w-full flex items-center justify-center p-4 gap-5 absolute top-0'>
       <ModeToggle />
       <nav className='rounded-full bg-zinc-950 text-zinc-50 dark:bg-zinc-100 dark:text-zinc-950 px-4 py-2 flex gap-20 items-center'>
         <div className='flex gap-8'>

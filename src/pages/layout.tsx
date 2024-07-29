@@ -9,8 +9,10 @@ interface LayoutMainProps {
 export default function LayoutMain({ children }: LayoutMainProps) {
   return (
     <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
-      <Header />
-      {children}
+      <div className="flex items-center justify-center min-h-screen w-full">
+        <Header />
+        {children}
+      </div>
     </ThemeProvider>
   )
 }
