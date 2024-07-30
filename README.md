@@ -4,13 +4,9 @@ Bem-vindo à CromoCode! Somos uma startup dedicada a fornecer soluções de dese
 
 ## Sobre Nós
 
-Na CromoCode, acreditamos que a inovação tecnológica é a chave para o sucesso empresarial. Com uma equipe de desenvolvedores experientes e especializados, oferecemos soluções sob medida para atender às necessidades específicas de cada cliente, # CromoCode
+Na CromoCode, acreditamos que a inovação tecnológica é a chave para o sucesso empresarial. Com uma equipe de desenvolvedores experientes e especializados, oferecemos soluções sob medida para atender às necessidades específicas de cada cliente, #CromoCode
 
 Bem-vindo à CromoCode! Somos uma startup dedicada a fornecer soluções de desenvolvimento de sistemas industriais, automações para mercados e drogarias, além de parcerias estratégicas para promoções e divulgações. Nosso objetivo é transformar e otimizar processos empresariais através de tecnologias inovadoras e eficientes.
-
-## Sobre Nós
-
-Na CromoCode, acreditamos que a inovação tecnológica é a chave para o sucesso empresarial. Com uma equipe de desenvolvedores experientes e especializados, oferecemos soluções sob medida para atender às necessidades específicas de cada cliente, promovendo automação e eficiência em diversos setores.
 
 ## Nossas Áreas de Atuação
 
