@@ -9,7 +9,6 @@ export function Home() {
     <LayoutMain>
       <div className="h-screen flex items-center w-full overflow-hidden justify-around flex-col">
         <div className='flex items-center justify-center flex-col gap-4'>
-
           <motion.img
             src={logoOfc}
             alt=""
@@ -24,7 +23,7 @@ export function Home() {
             animate={{ top: 310, left: 490, opacity: 1 }}
             exit={{ opacity: 0 }}
           >
-            <p>
+            <p className='hidden 2xl:block'>
               Com uma equipe de especialistas apaixonados por tecnologia, o CromoCode oferece desenvolvimento de software personalizado e consultoria técnica.
               Estamos aqui para elevar o seu negócio a novos patamares!
             </p>
