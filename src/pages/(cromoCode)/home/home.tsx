@@ -36,9 +36,9 @@ export function Home() {
           >
             <img src={ImgPersonConference} alt="" className='h-48 absolute -top-16 md:h-60 md:-top-28' />
             <motion.div
-              className='bg-zinc-200 rounded-full w-auto p-2 flex gap-2 items-center text-zinc-50 -mt-80 shadow-lg  bg-opacity-20'
-              initial={{ opacity: 0, y: 4 }}
-              animate={{ opacity: 1, y: 4 }}
+              className='bg-zinc-200 rounded-full w-auto p-2 flex gap-2 items-center text-zinc-50 -mt-[340px] shadow-lg  bg-opacity-20'
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
               transition={{ duration: 0.5 }}
             >
               <a
