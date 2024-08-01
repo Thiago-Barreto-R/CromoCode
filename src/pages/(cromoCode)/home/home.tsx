@@ -8,13 +8,13 @@ export function Home() {
   return (
     <LayoutMain>
       <div className="h-screen flex items-center w-full overflow-hidden justify-around flex-col">
-        <div className='flex items-center justify-center flex-col gap-4'>
+        <div className='flex items-center justify-center flex-col gap-0'>
           <motion.img
             src={logoOfc}
             alt=""
             className='h-10 relative'
             initial={{ scale: 0, opacity: 0, left: 80 }}
-            animate={{ scale: 2, opacity: 1, left: -30 }}
+            animate={{ scale: 2, opacity: 1, left: 0 }}
             exit={{ opacity: 0 }}
           />
           <motion.p
@@ -38,7 +38,7 @@ export function Home() {
             <motion.div
               className='bg-zinc-200 rounded-full w-auto p-2 flex gap-2 items-center text-zinc-50 -mt-72 shadow-lg  bg-opacity-20'
               initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
+              animate={{ opacity: 1, y: 20 }}
               transition={{ duration: 0.5 }}
             >
               <a
