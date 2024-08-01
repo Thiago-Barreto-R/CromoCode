@@ -3,11 +3,12 @@ import { ChevronsDown } from 'lucide-react';
 import { useEffect } from 'react';
 import ScrollReveal from 'scrollreveal';
 import LayoutMain from "../../layout";
+import { HowWeEmerged } from './history/howWeEmerged';
 
 export function About() {
 
   useEffect(() => {
-    ScrollReveal().reveal('.headline', {
+    ScrollReveal().reveal('#about', {
       distance: '50px',
       duration: 1000,
       easing: 'cubic-bezier(0.5, 0, 0.1, 1)',
@@ -48,26 +49,7 @@ export function About() {
           <ChevronsDown />
         </motion.a>
       </div>
-      <div 
-        className='h-screen w-full flex flex-col items-start justify-center z-0 headline' 
-        id='about'
-      >
-        <div className='pl-20 w-[1200px]'>
-          <motion.h2 
-            className='text-2xl'
-            initial={{ opacity: 0}}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-          >
-            Como surgimos ?
-          </motion.h2>
-          <p className='ml-4'>
-            Tudo começou com um engenheiro e dois desenvolvedores que compartilharam uma visão comum: inovar a indústria com tecnologia de ponta.
-            Juntos, decidiram abrir uma startup de tecnologia a CromoCode, combinando suas habilidades e experiências para transformar ideias em soluções inovadoras.
-            Com a paixão pelo desenvolvimento e a engenharia, estamos prontos para enfrentar os desafios do futuro e criar um impacto positivo no mundo.
-          </p>
-        </div>
-      </div>
+      <HowWeEmerged/>
     </LayoutMain>
   )
 }
