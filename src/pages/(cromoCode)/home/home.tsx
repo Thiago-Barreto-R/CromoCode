@@ -12,15 +12,15 @@ export function Home() {
           <motion.img
             src={logoOfc}
             alt=""
-            className='h-10 relative'
-            initial={{ scale: 0, opacity: 0, left: 80 }}
-            animate={{ scale: 2, opacity: 1, left: 0 }}
+            className='h-10 relative lg:h-20'
+            initial={{ scale: 0, opacity: 0}}
+            animate={{ scale: 2, opacity: 1 }}
             exit={{ opacity: 0 }}
           />
           <motion.p
-            className='hidden absolute text-center w-[900px] lg:block'
-            initial={{ top: 275, left: 490, opacity: 0 }}
-            animate={{ top: 310, left: 490, opacity: 1 }}
+            className='hidden absolute text-start lg:block lg:left-20 lg:max-w-[500px]'
+            initial={{ top: 275, opacity: 0 }}
+            animate={{ top: 310, opacity: 1 }}
             exit={{ opacity: 0 }}
           >
             Com uma equipe de especialistas apaixonados por tecnologia, o CromoCode oferece desenvolvimento de software personalizado e consultoria técnica.

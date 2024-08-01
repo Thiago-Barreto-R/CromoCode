@@ -9,9 +9,9 @@ export function Header() {
   const currentPath = location.pathname;
 
   return (
-    <header className='w-full flex items-center justify-center flex-col lg:flex-row p-4 gap-5 fixed top-0 -left-32 md:-left-80 lg:-left-20'>
+    <header className='w-full flex items-center justify-center flex-col lg:flex-row p-4 gap-5 z-50 fixed top-0'>
       <ModeToggle />
-      <nav className='rounded-full bg-zinc-950 text-zinc-50 w-10 h-auto lg:w-auto lg:h-auto dark:bg-zinc-100 dark:text-zinc-950 px-4 py-1 flex lg:gap-16 items-center flex-col lg:flex-row gap-4 lg:px-2 lg:py-1.5'>
+      <nav className='rounded-full w-10 h-auto lg:w-auto lg:h-auto bg-zinc-100 text-zinc-950 shadow px-4 py-1 flex lg:gap-16 items-center flex-col lg:flex-row gap-4 lg:px-2 lg:py-1.5'>
         <div className='flex lg:gap-2 flex-col gap-2 lg:flex-row'>
           <Link to='/' className={`py-1 rounded-full lg:hover:bg-blue-800 hover:text-zinc-50 flex items-center transition-all duration-300 justify-center px-2 lg:px-6 ${currentPath === '/' ? 'bg-blue-800 text-zinc-50' : ''}`}>
             <FontAwesomeIcon icon={faHome} className='block lg:hidden' />
