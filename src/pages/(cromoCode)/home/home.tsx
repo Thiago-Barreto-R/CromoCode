@@ -30,15 +30,15 @@ export function Home() {
         </div>
         <div className='relative'>
           <motion.div
-            className='rounded-full bg-blue-800 flex absolute -bottom-[600px] items-center justify-center h-[700px] w-[700px]'
+            className='rounded-full bg-blue-800 flex absolute -bottom-[600px] items-center justify-center h-[670px] w-[670px]'
             initial={{ left: 0 }}
             animate={{ left: -350 }}
           >
-            <img src={ImgPersonConference} alt="" className='h-48 absolute -top-16 md:h-80 md:-top-36' />
+            <img src={ImgPersonConference} alt="" className='h-48 absolute -top-16 md:h-60 md:-top-24' />
             <motion.div
               className='bg-zinc-200 rounded-full w-auto p-2 flex gap-2 items-center text-zinc-50 -mt-72 shadow-lg  bg-opacity-20'
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 20 }}
+              initial={{ opacity: 0, y: 4 }}
+              animate={{ opacity: 1, y: 4 }}
               transition={{ duration: 0.5 }}
             >
               <a
