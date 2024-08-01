@@ -23,8 +23,8 @@ export function HowWeEmerged() {
             transition={{ duration: 1, delay: 0.2 }}
             exit={{ opacity: 0, y: 20 }}
           >
-            Tudo começou com um engenheiro e dois desenvolvedores que compartilharam uma visão comum: inovar a indústria com tecnologia de ponta. 
-            Juntos, decidiram abrir uma startup de tecnologia chamada CromoCode, combinando suas habilidades e experiências para transformar ideias em soluções inovadoras. 
+            Tudo começou com um engenheiro e dois desenvolvedores que compartilhavam uma visão comum: inovar não apenas a indústria com tecnologia de ponta, mas também toda franquia que necessitasse de automações.
+             Juntos, decidiram abrir uma startup de tecnologia chamada CromoCode, combinando suas habilidades e experiências para transformar ideias em soluções inovadoras.
           </motion.p>
           <motion.p 
             className='ml-10 mt-4 text-lg'
@@ -34,7 +34,7 @@ export function HowWeEmerged() {
             exit={{ opacity: 0, y: 20 }}
           >
             O nome Cromo faz referência ao elemento cromo da tabela periódica, conhecido por sua resistência à corrosão e durabilidade. Assim como o cromo, 
-            nossa missão é criar soluções tecnológicas robustas e duradouras que resistam aos desafios do tempo e da inovação. 
+            nossa missão é criar soluções tecnológicas robustas e duradouras. 
           </motion.p>
           <motion.p 
             className='ml-10 mt-4 text-lg'
